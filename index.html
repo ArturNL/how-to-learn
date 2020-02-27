@@ -13,13 +13,11 @@
 
 <!--Блок Header-->
         <header class="header">
-            <div class="logo logo_place_header"> 
-                <img src="./images/logo.svg" alt="Яндекс.Практикум"></div>
+            <img class="logo logo_place_header" src="./images/logo.svg" alt="Яндекс.Практикум">
             <h1 class="header__title">Научиться учиться</h1>
             <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
                 <a href="#" class="header__link">Узнать &#8594;</a></p>
-            <div class="header__main-illustration">
-                <img src="./images/two_again.png" alt="Опять двойка"></div>
+            <img class="header__main-illustration" src="./images/two_again.png" alt="Опять двойка">
             <div class="header__square-pic"></div>
         </header>
     
@@ -27,7 +25,7 @@
 <!--Блок description--> 
             <section class="description">
                 <div class="two-columns">
-                    <p class="two-columns__brief">Главные проблемы в обучении</p>
+                    <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
                     <div class="two-columns__main-text">
                     <p class="two-columns__paragraph">
                         Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
@@ -41,7 +39,7 @@
 <!--Блок digits-->
             <section class="digits">
                 <h2 class="section-title">Цифры и факты</h2>
-                <h6 class="section-subtitle">Про учёбу и мозг</h6>
+                <p class="section-subtitle">Про учёбу и мозг</p>
                 <div class="table">
                     <div class="table__cell">
                         <h6 class="table__heading">86 миллиардов</h6>
@@ -84,7 +82,7 @@
             <section class="feinman"><img class="feinman__card" src="./images/feinman.png" alt="Фейнман">
                 <h2 class="feinman__title">Метод Фейнмана</h2>
                 <p class="feinman__subtitle">Выучить и не забыть.</p>
-                <p class="feinman__link">Подробнее &#8594;</p>
+                <a href="#" class="feinman__link">Подробнее &#8594;</a>
             </section>
  
 <!--Блок kaufman-->
@@ -133,32 +131,33 @@
                         <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
                     </div>
                 </div>
-                <div class="kaufman__triangle"><img src="./images/triangle.svg" alt="Треугольник"></div>
+                <div class="kaufman__triangle"></div>
             </section>
         </main>
 
 <!--Блок footer-->
         <footer class="footer">
             <div class="footer__columns">
-                <div class="footer__column_content_copyright">
+                <div class="footer__column footer__column_content_copyright">
                     <img class="logo logo_place_footer" src="./images/logo_white.svg" alt="Яндекс.Практикум">
                     <p class="footer__author">&copy;2019.Артур Нуртдинов</p>
                  </div>
-                <div class="footer__column_content_info">
-                    <div><p class="footer__column-heading">О Практикуме</p></div>
-                        <div><p class="footer__column-links">Главная</p>
-                        <p class="footer__column-links">Концепция</p>
-                        <p class="footer__column-links">Наставники</p>
-                        </div>
-                </div>
-                <div class="footer__column_content_social">
-                    <div class="footer__column-heading"><p>Соцсети</p></div>
-                    <div class="footer__column-links">
-                       <p><a href="#" class="footer__link"><img class="footer__social-icon" src="./images/facebook_white.svg " alt="">Facebook</a></p>
-                       <p><a href="#" class="footer__link"><img class="footer__social-icon" src="./images/vk_white.svg" alt="">ВКонтакте</a></p>
-                       <p><a href="#" class="footer__link"><img class="footer__social-icon" src="./images/instagram_white.svg" alt="">Instagram</a></p>
-                    </div>
-                </div>
+                <nav class="footer__column footer__column_content_info">
+                    <h2 class="footer__column-heading">О Практикуме</h2>
+                    <ul class="footer__column-links">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#" class="footer__link">Концепция</a></li>
+                        <li><a href="#" class="footer__link">Наставники</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer__column footer__column_content_social">
+                    <h2 class="footer__column-heading">Соцсети</h2>
+                    <ul class="footer__column-links">
+                       <li><a href="#" class="footer__link"><img class="footer__social-icon" src="./images/facebook_white.svg " alt="">Facebook</a></li>
+                       <li><a href="#" class="footer__link"><img class="footer__social-icon" src="./images/vk_white.svg" alt="">ВКонтакте</a></li>
+                       <li><a href="#" class="footer__link"><img class="footer__social-icon" src="./images/instagram_white.svg" alt="">Instagram</a></li>
+                    </ul>
+                </nav>
             </div>
         </footer>
     </div>
