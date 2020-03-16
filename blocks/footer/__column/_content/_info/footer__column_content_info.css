@@ -1,6 +1,4 @@
 .footer__column_content_info {
-    display: flex;
-    flex-direction: column;
     height: 350px;
     margin-bottom: 16px;
 }
